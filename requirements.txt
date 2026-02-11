@@ -1,0 +1,8 @@
+# AI Translation Reader
+# Python >= 3.7
+
+# This project uses Python standard library only - no third-party dependencies required!
+
+# Development tools (optional)
+# pylint>=2.0.0
+# black>=22.0.0
