@@ -82,6 +82,7 @@ function App() {
     const newAnnotation = {
       id: Date.now().toString(),
       chapter: currentChapter.id,
+      mode: mode, // Store which mode this annotation was created in
       text: selection.text,
       type: 'highlight',
       paraIndex: selection.paraIndex,
@@ -108,6 +109,7 @@ function App() {
     const newAnnotation = {
       id: Date.now().toString(),
       chapter: currentChapter.id,
+      mode: mode, // Store which mode this annotation was created in
       text: selection.text,
       type: 'underline',
       paraIndex: selection.paraIndex,
@@ -171,8 +173,8 @@ function App() {
         </div>
       </main>
 
-      {/* 只看译文模式下不显示标注工具栏 */}
-      {mode !== 'pure' && (
+      {/* 标注工具栏只在"只看译文"模式下显示 */}
+      {mode === 'pure' && (
         <AnnotationToolbar
           selection={selection}
           onHighlight={handleHighlight}

@@ -18,10 +18,10 @@ const ChapterContentInner = ({ filename }) => {
 
   const annotations = useAnnotationStore((state) => state.annotations);
 
-  // Filter annotations for this chapter
+  // Filter annotations for this chapter AND current mode
   const chapterAnnotations = useMemo(() =>
-    annotations.filter(a => a.chapter === filename),
-    [annotations, filename]
+    annotations.filter(a => a.chapter === filename && a.mode === mode),
+    [annotations, filename, mode]
   );
 
   // 创建按段落索引分组的 annotations 映射
@@ -36,6 +36,9 @@ const ChapterContentInner = ({ filename }) => {
     });
     return map;
   }, [chapterAnnotations]);
+
+  // Paragraph counter for pure mode - needs to be stable across renders
+  const paragraphCounterRef = React.useRef(0);
 
   // 稳定的空数组
   const EMPTY_ANNOTATIONS = useMemo(() => [], []);
@@ -136,6 +139,11 @@ const ChapterContentInner = ({ filename }) => {
     loadContent();
   }, [filename]);
 
+  // Reset paragraph counter when chapter or mode changes
+  React.useEffect(() => {
+    paragraphCounterRef.current = 0;
+  }, [filename, mode]);
+
   // 条件返回放在所有 hooks 之后
   if (loading) {
     return (
@@ -166,17 +174,19 @@ const ChapterContentInner = ({ filename }) => {
       <ReactMarkdown
         components={{
           p: ({ node, children, ...props }) => {
-            // 在 pure 模式下，不显示标注（因为行号对不上）
-            if (mode === 'pure') {
+            // Annotations ONLY work in 'pure' mode (Translation Only)
+            // Bilingual mode shows clean text without marks
+            if (mode === 'bilingual') {
               return <p className="my-4 leading-relaxed" {...props}>{children}</p>;
             }
-            
-            const index = node?.position?.start?.line || 0;
-            const paraAnnotations = getParaAnnotations(index);
+
+            // Pure mode: Use sequential rendered paragraph index
+            const paraIndex = paragraphCounterRef.current++;
+            const paraAnnotations = getParaAnnotations(paraIndex);
 
             return (
               <AnnotatedParagraph
-                paraIndex={index}
+                paraIndex={paraIndex}
                 annotations={paraAnnotations}
                 {...props}
               >

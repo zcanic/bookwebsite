@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear Annotations - One Time Cleanup</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 600px;
+      margin: 100px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    button {
+      background: #dc2626;
+      color: white;
+      border: none;
+      padding: 16px 32px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    button:hover {
+      background: #b91c1c;
+    }
+    .success {
+      color: #16a34a;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    .info {
+      background: #fef3c7;
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 24px;
+      border-left: 4px solid #f59e0b;
+    }
+  </style>
+</head>
+<body>
+  <h1>Clear Old Annotations</h1>
+
+  <div class="info">
+    <p><strong>⚠️ One-time cleanup required</strong></p>
+    <p>The annotation system has been refactored. Old annotations are incompatible with the new system.</p>
+    <p>This will delete all existing highlights and underlines.</p>
+  </div>
+
+  <button onclick="clearAnnotations()">Clear All Annotations</button>
+
+  <div id="result"></div>
+
+  <script>
+    function clearAnnotations() {
+      // Clear localStorage
+      localStorage.removeItem('annotation-storage');
+
+      // Show success message
+      document.getElementById('result').innerHTML =
+        '<p class="success">✓ Annotations cleared successfully!</p>' +
+        '<p>You can now close this page and refresh your book reader.</p>';
+    }
+  </script>
+</body>
+</html>
