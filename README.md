@@ -1,154 +1,80 @@
-# Embedding Artificial Intelligence into ERP Software A Conceptual View on Business AI with Examples from SAP S4HANA (Siar Sarferaz) (z-library.sk, 1lib.sk, z-lib.sk) - 翻译索引
+# BookWebsite 📚
 
-**原始文件**: Embedding Artificial Intelligence into ERP Software A Conceptual View on Business AI with Examples from SAP S4HANA (Siar Sarferaz) (z-library.sk, 1lib.sk, z-lib.sk).pdf
-**翻译工具**: Claude Code CLI
-**总段数**: 146
+A modern, dual-mode e-book reader built with React and Node.js. Designed for language learners and immersive reading experiences.
 
-## 文档列表
+## ✨ Key Features
 
-- [第1部分 (页码 1-3)](./part_01_pages_1-3.md)
-- [第2部分 (页码 4-6)](./part_02_pages_4-6.md)
-- [第3部分 (页码 7-9)](./part_03_pages_7-9.md)
-- [第4部分 (页码 10-12)](./part_04_pages_10-12.md)
-- [第5部分 (页码 13-15)](./part_05_pages_13-15.md)
-- [第6部分 (页码 16-18)](./part_06_pages_16-18.md)
-- [第7部分 (页码 19-21)](./part_07_pages_19-21.md)
-- [第8部分 (页码 22-24)](./part_08_pages_22-24.md)
-- [第9部分 (页码 25-27)](./part_09_pages_25-27.md)
-- [第10部分 (页码 28-30)](./part_10_pages_28-30.md)
-- [第11部分 (页码 31-33)](./part_11_pages_31-33.md)
-- [第12部分 (页码 34-36)](./part_12_pages_34-36.md)
-- [第13部分 (页码 37-39)](./part_13_pages_37-39.md)
-- [第14部分 (页码 40-42)](./part_14_pages_40-42.md)
-- [第15部分 (页码 43-45)](./part_15_pages_43-45.md)
-- [第16部分 (页码 46-48)](./part_16_pages_46-48.md)
-- [第17部分 (页码 49-51)](./part_17_pages_49-51.md)
-- [第18部分 (页码 52-54)](./part_18_pages_52-54.md)
-- [第19部分 (页码 55-57)](./part_19_pages_55-57.md)
-- [第20部分 (页码 58-60)](./part_20_pages_58-60.md)
-- [第21部分 (页码 61-63)](./part_21_pages_61-63.md)
-- [第22部分 (页码 64-66)](./part_22_pages_64-66.md)
-- [第23部分 (页码 67-69)](./part_23_pages_67-69.md)
-- [第24部分 (页码 70-72)](./part_24_pages_70-72.md)
-- [第25部分 (页码 73-75)](./part_25_pages_73-75.md)
-- [第26部分 (页码 76-78)](./part_26_pages_76-78.md)
-- [第27部分 (页码 79-81)](./part_27_pages_79-81.md)
-- [第28部分 (页码 82-84)](./part_28_pages_82-84.md)
-- [第29部分 (页码 85-87)](./part_29_pages_85-87.md)
-- [第30部分 (页码 88-90)](./part_30_pages_88-90.md)
-- [第31部分 (页码 91-93)](./part_31_pages_91-93.md)
-- [第32部分 (页码 94-96)](./part_32_pages_94-96.md)
-- [第33部分 (页码 97-99)](./part_33_pages_97-99.md)
-- [第34部分 (页码 100-102)](./part_34_pages_100-102.md)
-- [第35部分 (页码 103-105)](./part_35_pages_103-105.md)
-- [第36部分 (页码 106-108)](./part_36_pages_106-108.md)
-- [第37部分 (页码 109-111)](./part_37_pages_109-111.md)
-- [第38部分 (页码 112-114)](./part_38_pages_112-114.md)
-- [第39部分 (页码 115-117)](./part_39_pages_115-117.md)
-- [第40部分 (页码 118-120)](./part_40_pages_118-120.md)
-- [第41部分 (页码 121-123)](./part_41_pages_121-123.md)
-- [第42部分 (页码 124-126)](./part_42_pages_124-126.md)
-- [第43部分 (页码 127-129)](./part_43_pages_127-129.md)
-- [第44部分 (页码 130-132)](./part_44_pages_130-132.md)
-- [第45部分 (页码 133-135)](./part_45_pages_133-135.md)
-- [第46部分 (页码 136-138)](./part_46_pages_136-138.md)
-- [第47部分 (页码 139-141)](./part_47_pages_139-141.md)
-- [第48部分 (页码 142-144)](./part_48_pages_142-144.md)
-- [第49部分 (页码 145-147)](./part_49_pages_145-147.md)
-- [第50部分 (页码 148-150)](./part_50_pages_148-150.md)
-- [第51部分 (页码 151-153)](./part_51_pages_151-153.md)
-- [第52部分 (页码 154-156)](./part_52_pages_154-156.md)
-- [第53部分 (页码 157-159)](./part_53_pages_157-159.md)
-- [第54部分 (页码 160-162)](./part_54_pages_160-162.md)
-- [第55部分 (页码 163-165)](./part_55_pages_163-165.md)
-- [第56部分 (页码 166-168)](./part_56_pages_166-168.md)
-- [第57部分 (页码 169-171)](./part_57_pages_169-171.md)
-- [第58部分 (页码 172-174)](./part_58_pages_172-174.md)
-- [第59部分 (页码 175-177)](./part_59_pages_175-177.md)
-- [第60部分 (页码 178-180)](./part_60_pages_178-180.md)
-- [第61部分 (页码 181-183)](./part_61_pages_181-183.md)
-- [第62部分 (页码 184-186)](./part_62_pages_184-186.md)
-- [第63部分 (页码 187-189)](./part_63_pages_187-189.md)
-- [第64部分 (页码 190-192)](./part_64_pages_190-192.md)
-- [第65部分 (页码 193-195)](./part_65_pages_193-195.md)
-- [第66部分 (页码 196-198)](./part_66_pages_196-198.md)
-- [第67部分 (页码 199-201)](./part_67_pages_199-201.md)
-- [第68部分 (页码 202-204)](./part_68_pages_202-204.md)
-- [第69部分 (页码 205-207)](./part_69_pages_205-207.md)
-- [第70部分 (页码 208-210)](./part_70_pages_208-210.md)
-- [第71部分 (页码 211-213)](./part_71_pages_211-213.md)
-- [第72部分 (页码 214-216)](./part_72_pages_214-216.md)
-- [第73部分 (页码 217-219)](./part_73_pages_217-219.md)
-- [第74部分 (页码 220-222)](./part_74_pages_220-222.md)
-- [第75部分 (页码 223-225)](./part_75_pages_223-225.md)
-- [第76部分 (页码 226-228)](./part_76_pages_226-228.md)
-- [第77部分 (页码 229-231)](./part_77_pages_229-231.md)
-- [第78部分 (页码 232-234)](./part_78_pages_232-234.md)
-- [第79部分 (页码 235-237)](./part_79_pages_235-237.md)
-- [第80部分 (页码 238-240)](./part_80_pages_238-240.md)
-- [第81部分 (页码 241-243)](./part_81_pages_241-243.md)
-- [第82部分 (页码 244-246)](./part_82_pages_244-246.md)
-- [第83部分 (页码 247-249)](./part_83_pages_247-249.md)
-- [第84部分 (页码 250-252)](./part_84_pages_250-252.md)
-- [第85部分 (页码 253-255)](./part_85_pages_253-255.md)
-- [第86部分 (页码 256-258)](./part_86_pages_256-258.md)
-- [第87部分 (页码 259-261)](./part_87_pages_259-261.md)
-- [第88部分 (页码 262-264)](./part_88_pages_262-264.md)
-- [第89部分 (页码 265-267)](./part_89_pages_265-267.md)
-- [第90部分 (页码 268-270)](./part_90_pages_268-270.md)
-- [第91部分 (页码 271-273)](./part_91_pages_271-273.md)
-- [第92部分 (页码 274-276)](./part_92_pages_274-276.md)
-- [第93部分 (页码 277-279)](./part_93_pages_277-279.md)
-- [第94部分 (页码 280-282)](./part_94_pages_280-282.md)
-- [第95部分 (页码 283-285)](./part_95_pages_283-285.md)
-- [第96部分 (页码 286-288)](./part_96_pages_286-288.md)
-- [第97部分 (页码 289-291)](./part_97_pages_289-291.md)
-- [第98部分 (页码 292-294)](./part_98_pages_292-294.md)
-- [第99部分 (页码 295-297)](./part_99_pages_295-297.md)
-- [第100部分 (页码 298-300)](./part_100_pages_298-300.md)
-- [第101部分 (页码 301-303)](./part_101_pages_301-303.md)
-- [第102部分 (页码 304-306)](./part_102_pages_304-306.md)
-- [第103部分 (页码 307-309)](./part_103_pages_307-309.md)
-- [第104部分 (页码 310-312)](./part_104_pages_310-312.md)
-- [第105部分 (页码 313-315)](./part_105_pages_313-315.md)
-- [第106部分 (页码 316-318)](./part_106_pages_316-318.md)
-- [第107部分 (页码 319-321)](./part_107_pages_319-321.md)
-- [第108部分 (页码 322-324)](./part_108_pages_322-324.md)
-- [第109部分 (页码 325-327)](./part_109_pages_325-327.md)
-- [第110部分 (页码 328-330)](./part_110_pages_328-330.md)
-- [第111部分 (页码 331-333)](./part_111_pages_331-333.md)
-- [第112部分 (页码 334-336)](./part_112_pages_334-336.md)
-- [第113部分 (页码 337-339)](./part_113_pages_337-339.md)
-- [第114部分 (页码 340-342)](./part_114_pages_340-342.md)
-- [第115部分 (页码 343-345)](./part_115_pages_343-345.md)
-- [第116部分 (页码 346-348)](./part_116_pages_346-348.md)
-- [第117部分 (页码 349-351)](./part_117_pages_349-351.md)
-- [第118部分 (页码 352-354)](./part_118_pages_352-354.md)
-- [第119部分 (页码 355-357)](./part_119_pages_355-357.md)
-- [第120部分 (页码 358-360)](./part_120_pages_358-360.md)
-- [第121部分 (页码 361-363)](./part_121_pages_361-363.md)
-- [第122部分 (页码 364-366)](./part_122_pages_364-366.md)
-- [第123部分 (页码 367-369)](./part_123_pages_367-369.md)
-- [第124部分 (页码 370-372)](./part_124_pages_370-372.md)
-- [第125部分 (页码 373-375)](./part_125_pages_373-375.md)
-- [第126部分 (页码 376-378)](./part_126_pages_376-378.md)
-- [第127部分 (页码 379-381)](./part_127_pages_379-381.md)
-- [第128部分 (页码 382-384)](./part_128_pages_382-384.md)
-- [第129部分 (页码 385-387)](./part_129_pages_385-387.md)
-- [第130部分 (页码 388-390)](./part_130_pages_388-390.md)
-- [第131部分 (页码 391-393)](./part_131_pages_391-393.md)
-- [第132部分 (页码 394-396)](./part_132_pages_394-396.md)
-- [第133部分 (页码 397-399)](./part_133_pages_397-399.md)
-- [第134部分 (页码 400-402)](./part_134_pages_400-402.md)
-- [第135部分 (页码 403-405)](./part_135_pages_403-405.md)
-- [第136部分 (页码 406-408)](./part_136_pages_406-408.md)
-- [第137部分 (页码 409-411)](./part_137_pages_409-411.md)
-- [第138部分 (页码 412-414)](./part_138_pages_412-414.md)
-- [第139部分 (页码 415-417)](./part_139_pages_415-417.md)
-- [第140部分 (页码 418-420)](./part_140_pages_418-420.md)
-- [第141部分 (页码 421-423)](./part_141_pages_421-423.md)
-- [第142部分 (页码 424-426)](./part_142_pages_424-426.md)
-- [第143部分 (页码 427-429)](./part_143_pages_427-429.md)
-- [第144部分 (页码 430-432)](./part_144_pages_430-432.md)
-- [第145部分 (页码 433-435)](./part_145_pages_433-435.md)
-- [第146部分 (页码 436-436)](./part_146_pages_436-436.md)
+- **Dual Reading Modes**:
+  - **Bilingual Mode**: Displays original text and translation side-by-side. Best for understanding context. (Note: Annotations are disabled in this mode for a clean reading experience).
+  - **Translation Only (Pure) Mode**: Focus purely on the translated text. **Annotations (Highlights & Underlines) are exclusively available in this mode.**
+- **Smart Annotation System**:
+  - Highlights and Underlines support.
+  - Annotations are indexed by *rendered paragraph order* to ensure stability even when raw markdown line numbers change.
+  - Persistent storage (local & backend).
+- **Responsive Design**: Built with Tailwind CSS for a seamless experience on desktop and mobile.
+- **Chapter Navigation**: Easy switching between chapters.
+
+## 🛠 Tech Stack
+
+- **Frontend**:
+  - React 18
+  - Vite
+  - Tailwind CSS
+  - Zustand (State Management)
+  - React Markdown (Rendering)
+- **Backend**:
+  - Node.js
+  - Express
+  - File-system based storage (JSON)
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or pnpm
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/zcanic/bookwebsite.git
+   cd bookwebsite
+   ```
+
+2. **Setup Backend**
+   ```bash
+   cd backend
+   npm install
+   npm start
+   # Server runs on http://localhost:3000
+   ```
+
+3. **Setup Frontend** (Open a new terminal)
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   # App runs on http://localhost:5173
+   ```
+
+## 📖 Usage Guide
+
+1. Open `http://localhost:5173`.
+2. Select a book/chapter from the sidebar.
+3. Toggle between **Bilingual** and **Translation Only** modes using the top bar.
+4. In **Translation Only** mode:
+   - Select text to see the annotation toolbar.
+   - Click the "Pen" icon to Highlight.
+   - Click the "Underline" icon to Underline.
+   - Click an existing mark to remove it.
+
+## 🧹 Maintenance
+
+If you encounter issues with old annotations (e.g., from previous versions), you can clear them using the built-in utility:
+1. Ensure the frontend server is running.
+2. Visit `http://localhost:5173/clear-annotations.html`.
+3. Follow the instructions to wipe local storage.
+
+## 📄 License
+
+MIT
